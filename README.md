@@ -1,6 +1,6 @@
 
 # Hangman
 
-This is a fun little project by TheDolphinCoder (Anonymous), boba-fettt (Vova) and sametj (Teejay). <br>
+This is a fun little project by TheDolphinCoder (That_WedDevHTML), boba-fettt (Water White) and sametj (TeeJay). <br>
 
-Current To-do: Start making the game
+Current To-do: Make js

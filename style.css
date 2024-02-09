@@ -1,6 +1,40 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    background: #311432;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button {
+    background: #DDA0DD;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.buttons {
+    gap: 5px;
+    width: 300px;
+    margin-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+#hangman {
+    background: white;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
 }
 
 #word-display {
@@ -25,6 +59,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    height: 40px;
 }
 
 #restart-btn:hover {

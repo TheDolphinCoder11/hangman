@@ -1,67 +1,95 @@
-html, body {
-    width: 100%;
-    height: 100%;
+html,
+body {
+	width: 100%;
+	height: 100%;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background: #311432;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background: #311432;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .buttons button {
-    background: #DDA0DD;
-    border: none;
-    border-radius: 5px;
-    font-size: 20px;
+	background: #dda0dd;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.buttons button:hover {
+	background: #c080c0;
+	transform: translate3d(0, -2px, 0);
 }
 
 .buttons {
-    gap: 5px;
-    width: 300px;
-    margin-left: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
+	gap: 5px;
+	width: 300px;
+	margin-left: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 #hangman {
-    background: white;
-    border-radius: 8px;
-    padding: 10px;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
+	background: white;
+	border-radius: 8px;
+	padding: 10px;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
 }
 
 #word-display {
-    font-size: 24px;
-    margin-bottom: 20px;
+	font-size: 24px;
+	margin-bottom: 20px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 5px;
+	width: fit-content;
+	display: flex;
 }
 
 #guesses {
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 #message {
-    margin-bottom: 20px;
-    font-weight: bold;
+	margin-bottom: 20px;
+	font-weight: bold;
 }
 
 #restart-btn {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    height: 40px;
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	height: 40px;
 }
 
 #restart-btn:hover {
-    background-color: #0056b3;
+	background-color: #0056b3;
+}
+
+.letter-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #000;
+	margin: 5px;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
 }

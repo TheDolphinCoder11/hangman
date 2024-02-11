@@ -1,6 +1,6 @@
 
 # Hangman
 
-This is a fun little project by TheDolphinCoder (That_WedDevHTML), boba-fettt (Water White) and sametj (TeeJay). <br>
+This is a fun little project by TheDolphinCoder (That_WedDevHTML), vodaman (Water White) and sametj (TeeJay). <br>
 
-Current To-do: Make js
+Current To-do: Add the hanging man lol
